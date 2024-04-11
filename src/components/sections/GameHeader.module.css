@@ -1,0 +1,18 @@
+.ResourcesList {
+	display: flex;
+	gap: clamp(18px, 3vw, 36px);
+	& .ResourcesListItem {
+		display: flex;
+		align-items: center;
+		gap: rem(8);
+		& .ResourcesListItem__img {
+			height: rem(32);
+			width: rem(32);
+		}
+		& .ResourcesListItem__value {
+			font-weight: 600;
+			font-size: 16px;
+			letter-spacing: -0.03em;
+		}
+	}
+}
